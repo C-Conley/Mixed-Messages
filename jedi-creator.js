@@ -14,7 +14,7 @@ const createJedi = () => {
     const randName = traits.name[(Math.floor(Math.random()*traits.name.length))];
     const randRace = traits.race[(Math.floor(Math.random()*traits.race.length))];
     const randSaber = traits.saberColor[(Math.floor(Math.random()*traits.saberColor.length))];
-    return `You are Jedi ${randName} of the ${randRace} race. The lightsaber you weild is ${randSaber}.`
-}
+    return `You are Jedi ${randName} of the ${randRace} race. The lightsaber you weild is ${randSaber}.`;
+};
 
 console.log(createJedi())
