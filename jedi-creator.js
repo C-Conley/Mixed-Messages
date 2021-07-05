@@ -17,3 +17,4 @@ const createJedi = () => {
     return `You are Jedi ${randName} of the ${randRace} race. The lightsaber you weild is ${randSaber}.`
 }
 
+console.log(createJedi())
